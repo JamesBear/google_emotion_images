@@ -1,0 +1,6 @@
+
+test_data/
+tf_ann_logs/*
+*ckpt*
+__pycache__/
+checkpoint

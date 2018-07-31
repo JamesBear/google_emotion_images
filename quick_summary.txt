@@ -1,0 +1,28 @@
+
+Using lenet5:
+
+Optimization took 33.948 seconds. 
+train acc=0.4990250766277313, val acc=0.469696968793869, test acc=0.43724697828292847
+train loss=1.214784324169159, val loss=1.3108181953430176, test loss=1.3773105144500732
+
+Classifies most pictures as 'happy'. Not much better than random guessing.
+
+-----------------------------------------------
+AMSGrad + larger lenet5:
+
+train acc=0.9795511066913605, val acc=0.5642633438110352, test acc=0.6610878705978394
+train loss=0.18071657419204712, val loss=1.4151270389556885, test loss=1.2149791717529297
+
+Terribly overfitting.
+
+-----------------------------------------------
+Reshuffled:
+
+train acc=0.9117555022239685, val acc=0.5830721259117126, test acc=0.5188284516334534
+train loss=0.42782314121723175, val loss=1.3087815046310425, test loss=1.4849891662597656
+
+Quite different from the last run.
+
+Conclusion: we don't have enough data to train a reasonably good classifier.
+
+Let's collect more clean data.
